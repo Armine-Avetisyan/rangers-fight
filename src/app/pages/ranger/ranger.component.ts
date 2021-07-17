@@ -34,9 +34,9 @@ export class RangerComponent implements OnInit {
     // this.end = false;
     setTimeout(() => {
       if (this.ranger1.life > this.ranger2.life) {
-        console.log(`The winner is ${this.ranger1.name} with ${this.ranger1.life}% life percentage`);
+        console.log(`The winner is ${this.ranger1.name} with ${this.ranger1.life} life percentage`);
       } else {
-        console.log(`The winner is ${this.ranger2.name} with ${this.ranger2.life}% life percentage`)
+        console.log(`The winner is ${this.ranger2.name} with ${this.ranger2.life} life percentage`)
       }
     }, 3000)
 
