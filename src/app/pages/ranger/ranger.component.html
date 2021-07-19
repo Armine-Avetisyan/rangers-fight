@@ -1,11 +1,6 @@
 
-<div class="div1">
-  <button [disabled]="starter? false : true" (click)="onClick(ranger1)" >Ranger1</button>
-  <button [disabled]="starter? false : true" (click)="onClick(ranger2)" >Ranger2</button>
+<div>
+  <button>{{data.name}}</button>
+</div>
 
-</div>
-<div class="div2">
-  <button (click)="onStarter(ranger1, ranger2)">Start</button>
-  <button [disabled]="starter? false : true" (click)="onOver()" >Game Over</button>
-</div>
 

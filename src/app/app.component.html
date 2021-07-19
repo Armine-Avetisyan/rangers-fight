@@ -1,1 +1,10 @@
-<app-ranger></app-ranger>
+<div class="div1">
+  <app-ranger [data]="ranger[0]">{{ranger[0]}}</app-ranger>
+  <app-ranger [data]="ranger[1]">{{ranger[1]}}</app-ranger>
+</div>
+<div class="div2">
+  <button (click)="fight()">Start</button>
+  <button (click)="gameOver()">GameOver</button>
+</div>
+
+

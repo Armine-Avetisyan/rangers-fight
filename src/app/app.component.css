@@ -1,0 +1,31 @@
+.div1{
+  display: flex;
+  justify-content: center;
+}
+
+.div2{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div2 > button {
+  width: 200px;
+  height: 100px;
+  background-color: darkblue;
+  margin-top:  200px;
+  margin-left: 30px;
+  padding: 10px;
+  color: darkgray;
+  cursor: pointer;
+  border: 2px solid darkgray;
+  font-size: 20px;
+  font-family: NSimSun;
+}
+
+.div2 > button:hover {
+  width: 170px;
+  height: 90px;
+  background-color: #171780;
+}
